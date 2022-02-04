@@ -32,6 +32,8 @@ We install gunicorn as a server where execute our app
 
 `pip3 install gunicorn`
 
+We specify this server in `Procfile`
+
 Then we freeze requirements: `pip3 freeze > requirements.txt`
 
 ## Create a instance in heroku
