@@ -33,3 +33,12 @@ We install gunicorn as a server where execute our app
 `pip3 install gunicorn`
 
 Then we freeze requirements: `pip3 freeze > requirements.txt`
+
+## Create a instance in heroku
+
+`heroku create flasksimplecrud`
+
+We push our code in Heroku remote git:
+
+1. `git remote -v`
+2. `git push heroku main`
